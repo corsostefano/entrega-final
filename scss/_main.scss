@@ -290,7 +290,7 @@ main{
             justify-content: center;
         }
         div{
-            
+
             .h1E{
                 color: black;
                 text-transform: uppercase;
@@ -315,6 +315,13 @@ main{
             }
             div{
                 .section9_1{
+                    display: block;
+                    align-items: center;
+                    justify-content: center;
+                    width: auto;
+                }
+                .section9_2{
+                    margin-top: 30px;
                     display: block;
                     align-items: center;
                     justify-content: center;

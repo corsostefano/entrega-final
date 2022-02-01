@@ -483,4 +483,10 @@ main div div .section9 {
     display: block;
     align-items: center;
     justify-content: center;
+    width: auto; }
+  main div div .section9_2 {
+    margin-top: 30px;
+    display: block;
+    align-items: center;
+    justify-content: center;
     width: auto; } }
