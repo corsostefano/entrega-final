@@ -1,0 +1,224 @@
+main{
+    //estilo_section1_index
+    .section1{
+        background-image: url(../img/envia-dinero.png);
+        background-size: cover;
+        padding: 40px;
+        width: 100%;
+        height: 700px;
+    }
+    div{
+        .section1A{
+            display: flex;
+            justify-content: space-between;
+        }
+        div{
+            .h1A{
+                color: black;
+                text-transform: uppercase;
+                margin: 20px;
+                width: 490px;
+                height: 200px;
+                border-radius: 4px;
+                text-align: center;
+                justify-content: space-between;
+                background-color: $fondoTrasnparente;
+                
+            }
+            form{
+                display: flex;
+                width: 360px;
+                background: rgba(255, 255, 255, 0.719);
+                padding: 30px;
+                border-radius: 4px;   
+                text-align: center;
+                justify-content: center;
+                color: black;
+                margin-top: 35px;              
+                fieldset{
+                    line-height: 2.5em;
+                    border-radius: 4px;
+                    border: solid 3px #999;
+                    div{
+                        line-height: 1.6em;
+                        .field{
+                            border: solid 1px black;
+                            padding: 10px;
+                            width: 210px;
+                            border-radius: 4px;
+                        }
+                        .fieldMoneda{
+                           border: solid 1px black;
+                           padding: 10px;
+                           width: 70px;
+                           font-size: 12px;
+                        }
+                        .boton{
+                            @include botones;
+                        }
+                        #segurity{
+                            color: rgb(155, 155, 155);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //section2
+    div{
+        div{
+            .section2{
+                align-items: center;
+            }
+            div{
+                h2{
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+                }
+                a{
+                    text-decoration: none;
+                    .boton{
+                        @include botones;
+                    }
+                }
+            }
+        }
+    }
+    //section3
+    div{
+        div{
+           .section3{
+            line-height: 1.6em;
+            background-color: #786d67;
+            color: white
+           }
+        }
+    }
+    //section4
+    div{
+        div{
+            .section4{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                height: 100%;
+                margin-top: 30px;
+            }
+        }
+    }   
+}
+@media(max-width: 858px){
+    //estilo_section1_index
+    main{
+        .section1{
+            width: 100%;
+            height: auto;
+            background-size: cover;
+            background-image: url(../img/moneyontime-banner.png);
+        }
+        div{
+            .section1A{
+                flex-wrap: wrap;
+                width: 100%;
+                height: auto;
+                align-items: center;
+                justify-content: center;
+            }
+            div{
+                .h1A{
+                    color: black;
+                    text-transform: uppercase;
+                    margin: 5px;
+                    margin-top: 0px;
+                    width: 490px;
+                    height: 170px;
+                    border-radius: 4px;
+                    text-align: center;
+                    justify-content: space-between;
+                    background-color: $fondoTrasnparente;
+                }
+                form{
+                    margin-top: 10px;
+                    flex-wrap: wrap;
+                    width: 410px;
+                    background: rgba(255, 255, 255, 0.719);
+                    padding: 5px;
+                    border-radius: 4px;   
+                    text-align: center;
+                    justify-content: center;
+                    color: black;
+                    fieldset{
+                        line-height: 2.5em;
+                        border-radius: 4px;
+                        border: solid 3px #999;
+                        div{
+                            line-height: 1.6em;
+                            .field{
+                                border: solid 1px black;
+                                padding: 10px;
+                                width: 210px;
+                                border-radius: 4px;
+                            }
+                            .fieldMoneda{
+                               border: solid 1px black;
+                               padding: 10px;
+                               width: 70px;
+                               font-size: 12px;
+                            }
+                            .boton{
+                                @include botones;
+                            }
+                            #segurity{
+                                color: rgb(155, 155, 155);
+                            }
+                        }
+                    }         
+                }
+            }
+        }
+    }
+    //section2
+    div{
+        div{
+            .section2{
+                align-items: center;
+            }
+            div{
+                h2{
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 25px;
+                }
+                h3{
+                    font-size: 20px;
+                }
+                a{
+                    text-decoration: none;
+                    .boton{
+                        @include botones;
+                    }
+                }
+            }
+        }
+    }   
+     //section4
+     div{
+        div{
+            .section4{
+                flex-wrap: wrap;
+                width: 100%;
+                height: 100%;
+                margin-top: 20px;
+            }
+            div{
+                .ulViñetas{
+                    margin-top: 20px;
+                    margin: 20px;
+                }
+            }
+        }
+    }   
+}
+
