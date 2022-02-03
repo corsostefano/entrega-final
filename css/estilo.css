@@ -117,7 +117,8 @@ header nav {
         flex-direction: column; }
         header nav div ul li a.active, header nav div ul li a:hover {
           color: #cc9a37;
-          color: white; } }
+          color: white; }
+  position: fixed; }
 
 footer {
   width: 100%;
@@ -325,7 +326,7 @@ main div .h1E {
   text-transform: uppercase;
   margin: 5px;
   margin-top: 0px;
-  width: 350px;
+  width: 380px;
   height: 100px;
   border-radius: 4px;
   text-align: center;
@@ -341,6 +342,22 @@ main div div .section9 {
   justify-content: space-between;
   width: 100%;
   height: 100%; }
+
+main div .section10 {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+main div div div div .imgAyuda {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px; }
+
+main div .section11 {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 @media (max-width: 858px) {
   main .section1 {
@@ -465,9 +482,7 @@ main div div .section9 {
   main div .h1E {
     color: black;
     text-transform: uppercase;
-    margin: 5px;
-    margin-top: 0px;
-    width: 350px;
+    width: 380px;
     height: 100px;
     border-radius: 4px;
     text-align: center;
@@ -486,7 +501,16 @@ main div div .section9 {
     width: auto; }
   main div div .section9_2 {
     margin-top: 30px;
+    margin-left: 20px;
     display: block;
     align-items: center;
     justify-content: center;
-    width: auto; } }
+    width: auto; }
+  main div .section10 {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  main div div div div .imgAyuda {
+    width: 380px;
+    height: auto;
+    border-radius: 10px; } }

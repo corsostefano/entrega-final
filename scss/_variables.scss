@@ -80,3 +80,9 @@ $fondoTrasnparente:#eaecefa8;
       background: $doradoclaro;
       }
   }
+//centrado
+@mixin centrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
